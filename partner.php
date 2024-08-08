@@ -1,0 +1,96 @@
+<?php
+include 'asset/header.php';
+?>
+<body class="dark:bg-gray-800">
+    <div class="fixed fixed-media bottom-4 right-4">
+        <a href="https://wa.me/6281234567890" target="_blank" class="flex items-center justify-center w-14 h-14 rounded-full focus:outline-none">
+            <img src="wa.png" alt="">
+        </a>
+    </div>  
+    <!-- Tambahkan HTML spinner di sini -->
+    <div id="spinner" role="status" class="fixed inset-0 flex items-center justify-center bg-white dark:bg-gray-800 z-50">
+        <div class="m-10">
+            <span class="block self-center text-xs sm:text-xl font-semibold whitespace-nowrap text-teal-500">PT Crown Teknologi Indonesia</span>
+        </div>
+        <svg aria-hidden="true" class="w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-green-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
+            <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
+        </svg>
+        <span class="sr-only">Loading...</span>
+    </div>
+    <?php include 'asset/menu.php'; ?>
+
+    <div class="bg-white dark:bg-gray-800">
+        <div class="container xl:pt-10 md:pt-20 pt-20 pb-7 p-4 m-auto xl:mt-20 mt-7">
+            <div class="mb-4">
+                <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                    <div class="text-gray-500 bg-pink p-10  dark:bg-gray-900 rounded-lg">
+                        <img src="partner/ui.webp" alt="" class="w-20 mb-10">
+                        <p class="text-white font-normal mb-5">Universitas Indonesia adalah salah satu universitas riset atau institusi akademik terkemuka di dunia yang terus mengejar pencapaian tertinggi dalam hal penemuan, pengembangan dan difusi pengetahuan secara regional dan global.</p>
+                    </div>
+                    <div class="text-gray-500 bg-pink p-10  dark:bg-gray-900 rounded-lg">
+                        <img src="partner/ayam.webp" alt="" class="w-20 mb-10">
+                        <p class="text-white font-normal mb-5">Universitas Hasanuddin (Unhas) merupakan sebuah perguruan tinggi negeri di Makassar, Sulawesi Selatan, yang berdiri pada 10 September 1956. Perguruan tinggi ini semula merupakan pengembangan dari Fakultas Ekonomi Universitas Indonesia ketika Bung Hatta masih menjadi wakil presiden. </p>
+                    </div>
+                    <div class="text-gray-500 bg-pink p-10  dark:bg-gray-900 rounded-lg">
+                        <img src="partner/Unpad.webp" alt="" class="w-20 mb-10">
+                        <p class="text-white font-normal mb-5">Universitas Padjadjaran atau dikenal dengan singkatan Unpad merupakan salah satu perguruan tinggi negeri yang ada di Indonesia. Unpad berdiri pada 11 September 1957, dengan lokasi kampus di Bandung. Saat ini, Unpad berstatus sebagai Perguruan Tinggi Negeri Badan Hukum.</p>
+                    </div>
+                    <div class="text-gray-500 bg-pink p-10  dark:bg-gray-900 rounded-lg">
+                        <img src="partner/unand.webp" alt="" class="w-20 mb-10">
+                        <p class="text-white font-normal mb-5">Universitas Andalas (biasa disingkat dengan UNAND) adalah perguruan tinggi negeri Indonesia yang terletak di Kota Padang, Sumatra Barat, Indonesia. Universitas ini merupakan universitas tertua di luar Pulau Jawa yang dibuka secara resmi pada tanggal 23 Desember 1955 oleh Wakil Presiden Mohammad Hatta.</p>
+                    </div>
+                    <div class="text-gray-500 bg-pink p-10  dark:bg-gray-900 rounded-lg">
+                        <img src="partner/mjamil.webp" alt="" class="w-20 mb-10">
+                        <p class="text-white font-normal mb-5">Rumah Sakit Umum Pusat Dr. M. Djamil (RSUP Dr. M. Djamil, juga disingkat RSMDJ) adalah sebuah rumah sakit pemerintah yang terletak di kota Padang, provinsi Sumatera Barat, Indonesia.[2] RSUP Dr. M. Djamil Padang didirikan pada tahun 1953. Rumah sakit ini merupakan rumah sakit pemerintah yang merupakan rumah sakit rujukan untuk wilayah Sumatra Bagian Tengah. Selain sebagai rumah sakit pemerintah, RSMDJ juga berperan sebagai rumah sakit pendidikan, salah satunya Fakultas Kedokteran Universitas Andalas. </p>
+                    </div>
+                    <div class="text-gray-500 bg-pink p-10  dark:bg-gray-900 rounded-lg">
+                        <img src="partner/rsunand.webp" alt="" class="w-20 mb-10">
+                        <p class="text-white font-normal mb-5">Rumah Sakit Universitas Andalas adalah salah satu rumah sakit yang ada di Kota Padang, Sumatera Barat. Rumah sakit ini berada di bawah pengelolaan Universitas Andalas yang berlokasi di komplek kampus Universitas Andalas, Limau Manis, Kecamatan Pauh, Kota Padang. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gelap">
+        <div class="container mx-auto px-4 py-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="col-span-1 mb-10">
+                    <a href="#" class="flex items-center space-x-3">
+                        <img src="logo.png" class="h-10" alt="Flowbite Logo" />
+                        <div>
+                            <span class="block text-white italic text-sm">Quality, Accuracy, Affordable</span>
+                            <span class="block text-lg font-semibold text-teal-500">PT Crown Teknologi Indonesia</span>
+                            <span class="block text-white text-xs">"Menuju Kemandirian untuk Kemaslahatan Bangsa"</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-span-1 mb-20">
+                    <ul class="flex flex-wrap items-center justify-center text-white text-sm space-x-6">
+                        <li><a href="#" class="block hover:underline">Beranda</a></li>
+                        <li><a href="#" class="block hover:underline">Produk</a></li>
+                        <li><a href="#" class="hover:underline">Berita</a></li>
+                        <li><a href="#" class="hover:underline">FAQs</a></li>
+                        <li><a href="#" class="hover:underline">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1 text-white text-sm">
+                    <p class="mb-5">Jl. By Pass km 17, Koto Panjang Ikua Koto, Kec. Koto Tangah, Kota Padang, Sumatera Barat 25175</p>
+                    <p class="font-bold text-yellow-200">Phone: 0751 4643632</p>
+                    <p class="font-bold text-yellow-200">Email: teknologi@crownidn.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-biru py-2">
+        <div class="text-center text-white text-xs">
+            <p>© 2024 PT. Crown Teknologi Indonesia. All Rights Reserved</p>
+        </div>
+    </div>
+
+
+    <script src="flowbite.js"></script>
+    <?php include 'asset/style.php'; ?>
+</body>
+</html>
