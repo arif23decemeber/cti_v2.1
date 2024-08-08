@@ -20,14 +20,38 @@ include 'asset/header.php';
     </div>
     <?php include 'asset/menu.php'; ?>
 
-    <div class="bg-white dark:bg-gray-800 xl:pt-20 md:pt-20 pt-20">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.3715020388095!2d100.36838717590147!3d-0.8574930353097475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4c7c4ee53a831%3A0xc3f750cb2112223d!2sPT.CROWN%20TEKNOLOGI%20INDONESIA!5e0!3m2!1sen!2sid!4v1718676036380!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="container pb-7 p-7 m-auto">
-            <div class="p-12">
-                <p class="text-dark dark:text-white font-extrabold text-3xl mb-10">Lokasi Office :</p>
-                <p class="text-dark dark:text-white font-normal mb-5">Jl. By Pass No.km 17, Koto Panjang Ikua Koto, Kec. Koto Tangah, Kota Padang, Sumatera Barat 25586 </p>
-                <h6 class="text-dark dark:text-white">Email : <a style="text-decoration:none;" href="mailto:teknologi@crownidn.com">teknologi@crownidn.com</a></h6>
-                <h6 class="text-dark dark:text-white">Phone : <a style="text-decoration:none;"  href="tel:+0751 4643632">+0751 4643632</a></h6>
+    <div class="bg-white dark:bg-gray-800">
+        <div class="container xl:pt-10 md:pt-20 pt-20 pb-7 p-4 m-auto xl:mt-20 mt-7">
+            <div class="mb-4">
+                <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                    <div class="text-gray-500 bg-hijau p-10  dark:bg-gray-900 rounded-lg">
+                        <p class="text-white font-extrabold text-3xl mb-10">Sejarah</p>
+                        <p class="text-white font-normal mb-5">CTI mulai produksi tahun 2023, dengan produk utama Kit diagnostik in vitro berbasis Nucleic Acid Amplification Test (NAAT) dan Rapid Diagnostic Test (RDT). Untuk menunjang proses komersialisasi produk, CTI dengan merek dagang “CRown_Lab” melakukan kerjasama dengan berbagai mitra dan peneliti dari berbagai universitas ternama.</p>
+                    </div>
+                    <div class="text-gray-500 bg-biru p-10  dark:bg-gray-900 rounded-lg">
+                        <p class="text-white font-extrabold text-3xl mb-10">Kontribusi</p>
+                        <p class="text-white font-normal mb-5">CTI berkomitmen untuk membantu pemerintah dalam penyediaan berbagai kebutuhan di bidang kesehatan, mulai dari pengembangan alat kesehatan, diagnostik, bahan baku untuk kebutuhan laboratorium, dan dukungan untuk riset.</p>
+                    </div>
+                </div>
+                <div class="mt-7">
+                    <div class="text-gray-500 bg-gelap p-10 dark:bg-gray-900 rounded-lg">
+                        <div>
+                            <p class="text-white font-extrabold text-3xl mb-2">Visi</p>
+                            <p class="text-white font-bold mb-5 text-xl">"Menjadi perusahan Bioteknologi terkemuka di Indonesia yang mampu menyediakan produksi dalam negeri berkualitas di bidang Kesehatan"</p>
+                        </div>
+                        <div>
+                            <p class="text-white font-extrabold text-3xl mb-2">Misi</p>
+                            <ol class="text-white ">
+                                <li>1. Menghasilkan produk kesehatan yang aman, berkualitas dan murah sebagai kontribusi untuk kemandirian bangsa</li>
+                                <li>2. Menjalin kerjasama dengan perguruan tinggi sebagai upaya pengembangan produk baru</li>
+                                <li>3. Membangun komitmen dengan rumah sakit sebagai wahana pengujian produk baru sekaligus bagian dari upaya pemasaran</li>
+                                <li>4. Membangun kerjasama dengan laboratorium pemerintah dan swasta sebagai percepatan pemasaran produk kesehatan</li>
+                                <li>5. Mendukung pengembangan sumber daya riset di perguruan tinggi untuk mempercepat pengembangan riset inovatif</li>
+                                <li>6. Penyediaan anggaran riset di perguruan tinggi sesuai dengan target produksi perusahaan</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

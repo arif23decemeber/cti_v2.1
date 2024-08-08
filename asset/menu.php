@@ -52,15 +52,15 @@
         <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
             <ul>
                 <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <a href="profile.php" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
                         <div class="font-semibold">Profile Crown Teknologi Informasi</div>
                         <span class="text-sm text-gray-500 dark:text-gray-400">Kenali perusahaan kami disini.</span>
                     </a>
                 </li>
                 <li>
                     <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold">Managemen Perusahaan</div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Mari berkenalan dengan personil perusahaan kami.</span>
+                        <div class="font-semibold">Partner Kami</div>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Mari berkenalan dengan partner perusahaan kami.</span>
                     </a>
                 </li>
                 <li>
